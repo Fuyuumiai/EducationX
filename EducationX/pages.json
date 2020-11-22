@@ -1,0 +1,153 @@
+{
+	"easycom": {
+		"custom": {
+			"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		{
+		    "path" : "pages/home/index",
+		    "style" :                                                                                    
+		    {	
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		},
+		{
+		    "path" : "pages/home/calendar",
+		    "style" :                                                                                    
+		    {	
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		},
+		{
+		    "path" : "pages/chat/index",
+		    "style" :                                                                                    
+		    {	
+				"navigationBarTitleText": "导航栏",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/publish/index",
+		    "style" :                                                                                    
+		    {	
+				"navigationBarTitleText": "导航栏",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/course/index",
+		    "style" :                                                                                    
+		    {	
+				"navigationBarTitleText": "导航栏",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/cart/index",
+		    "style" :                                                                                    
+		    {	"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/self/index",
+		    "style" :                                                                                    
+		    {	
+				"navigationBarTitleText": "导航栏",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/entry/info/index",
+		    "style" :                                                                                    
+		    {	"navigationStyle":"custom",
+				"navigationBarTextStyle":"white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/entry/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/entry/register/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/entry/forget/index",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		}
+        ,{
+            "path" : "pages/search/result",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom",
+                "navigationBarTextStyle":"white"
+            }
+        }
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath":"pages/cart/index"
+			},
+			{
+				"pagePath":"pages/chat/index"
+			},
+			{
+				"pagePath":"pages/course/index"
+			},
+			{
+				"pagePath":"pages/home/index"
+			},
+			{
+				"pagePath":"pages/self/index"
+			},
+			{
+				"pagePath":"pages/publish/index"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "家教平台",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus" : {
+			"bounce" : "none"
+		 }
+	}
+}
